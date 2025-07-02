@@ -1,0 +1,59 @@
+💡 Project Title: Energy Billing System in C
+📌 Overview
+This C program simulates a billing system for both residential and business energy customers. It calculates the bill based on energy usage, includes additional features like:
+
+Tax and service fees
+
+Premium channel billing for businesses
+
+Installment plan with interest
+
+Consumption comparison with a previous bill
+
+Simple menu-based user interaction
+
+🔧 Features
+Customer Type Selection
+
+Residential (R or r)
+
+Business (B or b)
+
+Billing Calculation
+
+Residential
+
+$0.12 per KWH
+
+$8.07 service fee
+
+5% tax
+
+Business
+
+First 1200 KWH at $0.17, rest at $0.12
+
+$17.07 service fee
+
+$47 per premium channel
+
+8% tax
+
+Installment Plan
+
+2, 3, or 4 installments with small interest rates
+
+Calculates total with interest and payment per installment
+
+Change in Consumption
+
+Compares the current bill to a previous bill
+
+Shows increase/decrease in percentage
+
+Menu Options
+
+Installment Plan
+
+View Consumption Change
+
