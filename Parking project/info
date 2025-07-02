@@ -1,0 +1,23 @@
+🚗 Parking Charge Calculator in C
+📌 Project Overview
+This C program calculates parking charges based on how long a customer has parked. It uses a simple billing rule:
+
+A minimum flat rate of $2.00 is charged for up to 3 hours.
+
+After 3 hours, the charge is $0.50 per additional hour.
+
+The maximum charge is $10.00 for any 24-hour period.
+
+The program continuously takes input from the user (parking duration in hours), calculates the charge using a function, keeps track of the total collected amount, and displays the charge for each customer along with the running total.
+
+💻 Features
+User inputs parking hours (repeatedly).
+
+Calculates parking charge based on time.
+
+Displays current charge and total collected amount.
+
+Stops when a negative number is entered.
+
+Uses a separate function for charge calculation (calculateCharges).
+
